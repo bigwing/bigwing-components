@@ -1,0 +1,29 @@
+{
+	"name": "@bigwing/icons",
+	"version": "1.0.0-prerelease",
+	"description": "Icon components for use with the WP Block Editor.",
+	"author": "BigWing",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"wordpress"
+	],
+	"homepage": "https://github.com/bigwing/bigwing-components/tree/master/packages/icons/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bigwing/bigwing-components.git"
+	},
+	"bugs": {
+		"url": "https://github.com/bigwing/bigwing-components/issues"
+	},
+	"main": "build/index.js",
+	"module": "build-module/index.js",
+	"react-native": "src/index",
+	"dependencies": {
+		"@babel/runtime": "^7.9.2",
+		"@wordpress/icons": "^2.4.0",
+		"@bigwing/components": "file:../components"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}

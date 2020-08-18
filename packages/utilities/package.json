@@ -1,0 +1,31 @@
+{
+	"name": "@bigwing/utilities",
+	"version": "1.0.0-prerelease",
+	"description": "Utilities for interacting with the WP Block Editor.",
+	"author": "BigWing",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"wordpress",
+		"gutenberg",
+		"utilities"
+	],
+	"homepage": "https://github.com/bigwing/bigwing-components/tree/master/packages/utilities/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bigwing/bigwing-components.git"
+	},
+	"bugs": {
+		"url": "https://github.com/bigwing/bigwing-components/issues"
+	},
+	"main": "build/index.js",
+	"module": "build-module/index.js",
+	"react-native": "src/index",
+	"sideEffects": false,
+	"dependencies": {
+		"@babel/runtime": "^7.9.2",
+		"@wordpress/data": "^4.22.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}

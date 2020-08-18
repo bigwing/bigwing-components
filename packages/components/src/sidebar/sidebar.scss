@@ -1,0 +1,8 @@
+$sidebarSlug: bigwing-editor-sidebar !default;
+
+.#{$sidebarSlug}-content {
+	// stylelint-disable-next-line selector-class-pattern
+	.components-base-control__help {
+		margin-top: 0;
+	}
+}

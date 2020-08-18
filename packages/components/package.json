@@ -1,0 +1,42 @@
+{
+	"name": "@bigwing/components",
+	"version": "1.0.0-prerelease",
+	"description": "Components for building with the WP Block Editor.",
+	"author": "BigWing",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"wordpress",
+		"gutenberg",
+		"components"
+	],
+	"homepage": "https://github.com/bigwing/bigwing-components/tree/master/packages/components/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bigwing/bigwing-components.git"
+	},
+	"bugs": {
+		"url": "https://github.com/bigwing/bigwing-components/issues"
+	},
+	"main": "build/index.js",
+	"module": "build-module/index.js",
+	"react-native": "src/index",
+	"sideEffects": [
+		"build-style/**"
+	],
+	"dependencies": {
+		"@babel/runtime": "^7.9.2",
+		"@bigwing/utilities": "file:../utilities",
+		"@wordpress/blocks": "^6.20.3",
+		"@wordpress/components": "^10.0.5",
+		"@wordpress/compose": "^3.19.3",
+		"@wordpress/element": "^2.16.0",
+		"@wordpress/hooks": "^2.9.0",
+		"@wordpress/i18n": "^3.14.0",
+		"lodash": "^4.17.19",
+		"prop-types": "^15.7.2",
+		"styled-components": "^5.1.1"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}

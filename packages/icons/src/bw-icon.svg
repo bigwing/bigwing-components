@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" data-name="bw-icon" role='img' aria-hidden='true' focusable='false'>
+	<defs>
+		<style>.colorized {fill:#0891f0;}</style>
+	</defs>
+	<g id="big-b" fillRule="evenodd">
+		<path class="colorized" d="M8.57,19.4v-2a3.07,3.07,0,0,1,3.07-3.07h72.6a3.07,3.07,0,0,1,3.07,3.07V50a3.07,3.07,0,0,1-3.07,3.07h-42A33.71,33.71,0,0,1,8.57,19.4Zm68.51,5.11H19.36A23.52,23.52,0,0,0,42.28,42.89h34.8Z"/>
+		<path class="colorized" d="M63.18,81.71H84.25a3.07,3.07,0,0,0,3.07-3.07V51.07A3.07,3.07,0,0,0,84.25,48H77.09V71.48H63.18a25,25,0,0,1-25-25H27.95A35.27,35.27,0,0,0,63.18,81.71Z"/>
+	</g>
+</svg>
