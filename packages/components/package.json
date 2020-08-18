@@ -1,6 +1,6 @@
 {
 	"name": "@bigwing/components",
-	"version": "1.0.0-prerelease",
+	"version": "1.0.0-rc.0",
 	"description": "Components for building with the WP Block Editor.",
 	"author": "BigWing",
 	"license": "GPL-2.0-or-later",

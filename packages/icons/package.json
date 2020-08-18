@@ -1,6 +1,6 @@
 {
 	"name": "@bigwing/icons",
-	"version": "1.0.0-prerelease",
+	"version": "1.0.0-rc.0",
 	"description": "Icon components for use with the WP Block Editor.",
 	"author": "BigWing",
 	"license": "GPL-2.0-or-later",
