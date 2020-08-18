@@ -1,7 +1,7 @@
-import { TextControl } from "@wordpress/components";
-import { compose } from "@wordpress/compose";
-import { PropTypes } from "prop-types";
-import { updateMetaWithDispatch, getMetaWithSelect } from "@bigwing/utilities";
+import { TextControl } from '@wordpress/components';
+import { compose } from '@wordpress/compose';
+import { PropTypes } from 'prop-types';
+import { updateMetaWithDispatch, getMetaWithSelect } from '@bigwing/utilities';
 
 /**
  * A wrapper component for {@see TextControl} used to manage post meta.
@@ -14,26 +14,32 @@ import { updateMetaWithDispatch, getMetaWithSelect } from "@bigwing/utilities";
  * @param {Function} props.setMetaValue The function used to update the meta value. Mapped to `onChange`.
  * @return {WPComponent} A wrapped TextControl component used for meta fields.
  */
-let MetaTextControl = ({ label, help, className, metaValue, setMetaValue }) => (
-  <TextControl
-    label={label}
-    help={help}
-    className={className}
-    value={metaValue}
-    onChange={setMetaValue}
-  />
+let MetaTextControl = ( {
+	label,
+	help,
+	className,
+	metaValue,
+	setMetaValue,
+} ) => (
+	<TextControl
+		label={ label }
+		help={ help }
+		className={ className }
+		value={ metaValue }
+		onChange={ setMetaValue }
+	/>
 );
 
 MetaTextControl.propTypes = {
-  // eslint-disable-next-line react/no-unused-prop-types
-  label: PropTypes.string,
-  className: PropTypes.string,
-  metaKey: PropTypes.string.isRequired,
+	// eslint-disable-next-line react/no-unused-prop-types
+	label: PropTypes.string,
+	className: PropTypes.string,
+	metaKey: PropTypes.string.isRequired,
 };
 
 MetaTextControl = compose(
-  updateMetaWithDispatch,
-  getMetaWithSelect
+	updateMetaWithDispatch,
+	getMetaWithSelect
 )( MetaTextControl );
 
 export default MetaTextControl;

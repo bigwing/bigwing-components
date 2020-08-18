@@ -14,7 +14,13 @@ import { updateMetaWithDispatch, getMetaWithSelect } from '@bigwing/utilities';
  * @param {Function} props.setMetaValue The function used to update the meta value. Mapped to `onChange`.
  * @return {WPComponent} A wrapped TextControl component used for meta fields.
  */
-let MetaTextareaControl = ( { label, help, className, metaValue, setMetaValue } ) => (
+let MetaTextareaControl = ( {
+	label,
+	help,
+	className,
+	metaValue,
+	setMetaValue,
+} ) => (
 	<TextareaControl
 		label={ label }
 		help={ help }

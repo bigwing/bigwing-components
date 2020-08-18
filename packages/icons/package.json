@@ -10,7 +10,8 @@
 	"homepage": "https://github.com/bigwing/bigwing-components/tree/master/packages/icons/README.md",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/bigwing/bigwing-components.git"
+		"url": "https://github.com/bigwing/bigwing-components.git",
+		"directory": "./packages/icons"
 	},
 	"bugs": {
 		"url": "https://github.com/bigwing/bigwing-components/issues"
@@ -20,8 +21,8 @@
 	"react-native": "src/index",
 	"dependencies": {
 		"@babel/runtime": "^7.9.2",
-		"@wordpress/icons": "^2.4.0",
-		"@bigwing/components": "file:../components"
+		"@bigwing/components": "file:../components",
+		"@wordpress/icons": "^2.4.0"
 	},
 	"publishConfig": {
 		"access": "public"

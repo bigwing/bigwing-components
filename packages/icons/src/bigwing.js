@@ -24,4 +24,6 @@ export const BigWingIconStyled = ( props ) => (
  * @param {*} props The properties to pass to the img element.
  * @return {HTMLElement} The img element with the base64-encoded source.
  */
-export const BigWingIconImg = ( props ) => <img src={ bwURL } alt="" { ...props } />;
+export const BigWingIconImg = ( props ) => (
+	<img src={ bwURL } alt="" { ...props } />
+);

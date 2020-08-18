@@ -12,7 +12,8 @@
 	"homepage": "https://github.com/bigwing/bigwing-components/tree/master/packages/utilities/README.md",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/bigwing/bigwing-components.git"
+		"url": "https://github.com/bigwing/bigwing-components.git",
+		"directory": "./packages/utilities"
 	},
 	"bugs": {
 		"url": "https://github.com/bigwing/bigwing-components/issues"
