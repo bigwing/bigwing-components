@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@bigwing/*": ["./*", "./packages/*/src"]
+		}
+	},
+	"exclude": [
+		"build",
+		"build-module",
+		"node_modules",
+	]
+}

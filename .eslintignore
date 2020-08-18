@@ -1,0 +1,7 @@
+.cache
+.history
+build
+build-module
+node_modules
+vendor
+!.*.js
