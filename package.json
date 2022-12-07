@@ -92,7 +92,7 @@
 			"rimraf": "3.0.2",
 			"sass-loader": "8.0.2",
 			"semver": "7.3.2",
-			"simple-git": "1.113.0",
+			"simple-git": "3.15.0",
 			"source-map-loader": "0.2.4",
 			"style-loader": "1.0.0",
 			"worker-farm": "1.7.0"
